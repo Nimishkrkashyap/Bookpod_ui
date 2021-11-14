@@ -1,0 +1,35 @@
+.container{
+    height: 13vw;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 3.5rem 0;
+}
+.image{
+    height: 8vw;
+    width: 8vw;
+    border-radius: 50%;
+}
+.title{
+    font-size: 1.8vw;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+    .container{
+        width: 38vw;
+        height: 23vw;
+        margin: 3.5rem 0;
+    }
+    .image{
+        height: 12vw;
+        width: 12vw;
+    }
+    .title{
+        font-size: 3.8vw;
+    }
+}
